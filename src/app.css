@@ -12,12 +12,10 @@
 	--bg-4: #131313;
 	--bg-5: #09090b;
 	--bg-6: #111111;
-}
 
-:global(body) {
+	background-color: var(--bg-1);
 	background-image: radial-gradient(rgb(49, 49, 49) 1px, transparent 0);
 	background-size: 40px 40px;
-	background-color: var(--bg-1);
 }
 
 .text-1 {

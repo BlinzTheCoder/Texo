@@ -14,6 +14,7 @@
 			senderName: 'BlinzTheCoder',
 			sentTime: '10:00 AM',
 			senderId: 'user1',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 1
 		},
 		{
@@ -21,6 +22,7 @@
 			senderName: 'BlinzTheCoder 2',
 			sentTime: '10:01 AM',
 			senderId: 'user2',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 2
 		},
 		{
@@ -28,6 +30,7 @@
 			senderName: 'BlinzTheCoder',
 			sentTime: '10:02 AM',
 			senderId: 'user1',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 3
 		},
 		{
@@ -35,6 +38,7 @@
 			senderName: 'BlinzTheCoder 2',
 			sentTime: '10:03 AM',
 			senderId: 'user2',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 4
 		},
 		{
@@ -42,6 +46,7 @@
 			senderName: 'BlinzTheCoder',
 			sentTime: '10:04 AM',
 			senderId: 'user1',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 5
 		},
 		{
@@ -49,6 +54,7 @@
 			senderName: 'BlinzTheCoder 2',
 			sentTime: '10:05 AM',
 			senderId: 'user2',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 6
 		},
 		{
@@ -56,6 +62,7 @@
 			senderName: 'BlinzTheCoder',
 			sentTime: '10:06 AM',
 			senderId: 'user1',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 7
 		},
 		{
@@ -63,6 +70,7 @@
 			senderName: 'BlinzTheCoder 2',
 			sentTime: '10:07 AM',
 			senderId: 'user2',
+			sentTimeZone: "Asia/Calcutta",
 			messageId: 8
 		}
 	];
