@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import Topbar from '$lib/components/Topbar.svelte';
 	import { onMount } from 'svelte';
-	let userName;
+	let userName: any;
 
 	onMount(() => {
 		if (!localStorage.getItem('userName')) {
@@ -55,14 +55,13 @@
 	}
 
 	.input {
-		@apply my-2 rounded-md bg-[--bg-3] px-4 py-2 text-white;
     font-family: 'Poppins', sans-serif;
 		font-weight: 600;
 		font-style: normal;
 		border: none;
 		outline: none;
 		box-shadow: 2px 2px 2px rgb(27, 27, 27);
-		@apply text-white ring-2 ring-[--bg-4];
+		@apply text-white ring-2 ring-[--bg-4] my-2 rounded-md bg-[--bg-3] px-4 py-2;
 	}
 
 	.title-text {
