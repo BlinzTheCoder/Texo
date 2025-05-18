@@ -27,8 +27,8 @@
     "active": true,
     "targets": "all",
     "icon": [
-      "../../static/logo.ico",
-      "../../static/logo.png"
+      "../static/logo.ico",
+      "../static/logo.png"
     ]
   }
 }

@@ -29,7 +29,7 @@
       <!-- Delete button: only for own messages, only on hover -->
       {#if isOwnMessage}
         <button
-          on:click={onDelete}
+          onclick={onDelete}
           class="absolute left-0 top-1/2 -translate-y-1/2 hidden group-hover:block p-1 text-red-400 hover:underline"
         >
           <!-- Delete Icon (SVG) -->
@@ -56,7 +56,7 @@
     {#if !isOwnMessage && messageSenderName}
       <div class="mt-1 text-sm text-gray-400">
         <button
-          on:click={() => console.log('Clicked on:', messageSenderName)}
+          onclick={() => console.log('Clicked on:', messageSenderName)}
           class="underline-offset-2 hover:underline whitespace-nowrap overflow-hidden text-ellipsis"
         >
           {messageSenderName}
