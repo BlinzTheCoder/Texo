@@ -26,7 +26,7 @@
 				<Createroom />
 				<div class="group relative">
 					<button
-						onclick={() => (window.location.href = 'https://github.com/BlinzThePokemon/Texo')}
+						onclick={() => (window.location.href = 'https://github.com/BlinzTheCoder/Texo')}
 						aria-label="Github"
 						class="rounded-md px-2 py-2 transition-all delay-100 duration-100 hover:bg-[--bg-4] focus:bg-[--bg-4]"
 					>
